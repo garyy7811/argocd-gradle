@@ -1,9 +1,9 @@
 name: Build/Push Argocd with Gardle
 on:
   push:
-    branches: [ sandbox-atmos ]
+    branches: [ master ]
   pull_request:
-    branches: [ sandbox-atmos ]
+    branches: [ master ]
   release:
     types:
       - published
